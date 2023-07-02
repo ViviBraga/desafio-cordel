@@ -6,6 +6,7 @@
 
 :root {
 
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
     --font-sriracha: 'Sriracha', cursive;
     --font-passion: 'Passion One', cursive;
 }
@@ -18,6 +19,7 @@
 html, body {
     min-height: 100vh;
     background-color: lightgray;
+    font-family: var(--font-padrao);
 }
 
 header {
@@ -25,7 +27,6 @@ header {
     color: white;
     height: 150px;
     text-align: center;
-    font-family: var(--font-passion);
 
 }
 
@@ -33,6 +34,7 @@ h1 {
     color: white;
     padding-top: 30px;
     font-variant: small-caps;
+    font-family: var(--font-passion);
 }
 
 header > p {
@@ -49,15 +51,12 @@ a:hover {
     text-decoration: underline;
 }
 
-main {
-    font-family: var(--font-sriracha);
-}
-
 section {
     line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    font-family: var(--font-sriracha);
 }
 
 section.normal {
