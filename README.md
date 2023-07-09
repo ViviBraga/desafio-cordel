@@ -1,3 +1,4 @@
 # desafio-cordel
-curso HTML e CSS paralax
-Acesse o site aqui  https://vivibraga.github.io/desafio-cordel/
+curso HTML e CSS paralax <br>
+Acesse o site aqui <br>
+https://vivibraga.github.io/desafio-cordel/
